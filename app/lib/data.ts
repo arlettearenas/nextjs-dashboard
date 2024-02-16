@@ -1,3 +1,5 @@
+const invoiceCountPromise = sql`SELECT COUNT(*) FROM invoices`;
+const customerCountPromise = sql`SELECT COUNT(*) FROM customers`;
 import { sql } from '@vercel/postgres';
 import {
   CustomerField,
