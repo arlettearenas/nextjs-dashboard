@@ -6,7 +6,7 @@ import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import { lusi } from '@/app/ui/fonts';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton, } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
- 
+
 export default async function Page() {
   const latestInvoices = await fetchLatestInvoices();
   const {
