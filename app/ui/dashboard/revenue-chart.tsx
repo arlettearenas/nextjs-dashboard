@@ -1,8 +1,7 @@
-import { Revenue } from '@/app/lib/definitions';
+import { fetchRevenue } from '@/app/lib/data';
 import { generateYAxis } from '@/app/lib/utils';
 import { lusi } from '@/app/ui/fonts';
 import { CalendarIcon } from '@heroicons/react/20/solid';
-import { fetchRevenue } from '@/app/lib/data';
 
 //This component is representational only.
 //For data visualization UI, check out:
